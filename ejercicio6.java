@@ -40,7 +40,7 @@ public class ejercicio6 {
             System.out.println("Ingrese 2 números enteros positivos");
             num1 = leer.nextInt();
             num2 = leer.nextInt();
-        } while (num1 < 0 || num2 < 0);
+        } while (num1 < 0 || num2 <= 0);
 
         do {
             String salir = "";
